@@ -5,9 +5,9 @@ var assert=require("assert");
 //var ok=res*num;
 
 function Reduciendo(arr,num){
-
+var result;
   arr.push(num);
-  document.getElementById("hola").innerHTML=arr.reduce(function(valorAnt,valorAct,indice, vector){
+  return result=arr.reduce(function(valorAnt,valorAct,indice, vector){
     var res= valorAnt * valorAct;
     return res;
   });
